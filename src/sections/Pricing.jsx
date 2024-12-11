@@ -30,8 +30,8 @@ const Pricing = () => {
             </div>
 
             <div className="pricing-bg">
-              <img src="/images/bg-outlines.svg" width={960} height={380} alt="outline" className="relative z-2" />
-              <img src="/images/bg-outlines-fill.png" width={960} height={380} alt="outline" className="absolute inset-0 opacity-5 mix-blend-soft-light" />
+              <img src="images/bg-outlines.svg" width={960} height={380} alt="outline" className="relative z-2" />
+              <img src="images/bg-outlines-fill.png" width={960} height={380} alt="outline" className="absolute inset-0 opacity-5 mix-blend-soft-light" />
             </div>
           </div>
 
@@ -76,7 +76,7 @@ const Pricing = () => {
                 <ul className="mx-auto space-y-4 xl:px-7">
                   {plan.features.map((feature) => (
                     <li key={feature} className="relative flex items-center gap-5">
-                      <img src={"/images/check.png"} alt="check" className="size-10 object-contain" />
+                      <img src={"images/check.png"} alt="check" className="size-10 object-contain" />
 
                       <p className="flex-1">{feature}</p>
                     </li>
